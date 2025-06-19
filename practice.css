@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Cal+Sans&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: green; */
+  
+
+
+}
+.navbar-nav{
+    margin-top: 0;
+     gap: 1rem; 
+    padding: 3px;
+    text-align: center;
+    
+   
+
+
+}
+
+
+#navbarSupportedContent{
+    /* margin-left: 1rem !important; */
+    margin-right: 1rem !important;
+
+
+}
+
+.navbar-nav li{
+
+    margin-left: 1rem!important;  
+    color: white !important; 
+    font-size: large;
+    /* font-weight: bold; */
+    
+}
+
+
+
+
+
+.navbar-brand{
+    text-align: end;
+    /* padding: 4px;  */
+
+
+}
+
+
+.navbar-brand img{
+
+    align-content: start !important;
+     margin-left:1rem !important;
+    margin-right: 20rem;
+
+}
+
+.m3 i{
+    text-align: center;
+}
+
+#M1{
+
+    
+   
+text-align: center;
+   text-decoration: none;
+   /* background-color: rgb(13, 54, 13); */
+   margin-top: 0%;
+  
+   background-image: url(sun.PNG);
+  
+   width: 100%;
+   height: 100%;
+  
+}
+
+
+
+
+.m3 h4{
+    text-align: center;
+}
+
+
+
+
+
+.d-flex button{
+
+    align-items: center !important;
+    text-align: center;
+    /* margin-left: 1rem !important; */
+    color: black;
+    border: black 2px solid;
+
+}
+
+
+.nav-link a{
+    color:rgb(1, 17, 1) !important;
+}
+
+
+.nav-item a{
+
+ color: rgb(0, 9, 0);
+    
+}
+
+
+#m2{
+      background-image: url(sun.PNG); 
+     
+     filter: brightness(100%); 
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container-fluid{
+    box-shadow: rgba(29, 81, 4, 0.25) 0px 30px 60px -12px inset, rgba(71, 243, 19, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+/* 
+ */
+
+
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Or any other desired font */
+    overflow-x: hidden; /* Prevent horizontal scrollbar due to animation */
+}
+
+.green-banner-container {
+    width: 100%;
+    background-color: #61A300; /* A shade of green similar to the image */
+    padding: 10px 0; /* Vertical padding */
+    overflow: hidden; /* Hide overflowing content for the continuous scroll effect */
+    white-space: nowrap; /* Prevent items from wrapping */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+
+.green-banner-slider {
+    display: inline-block; /* Allows items to be side-by-side in a continuous line */
+    animation: scrollBanner 30s linear infinite; /* Animation definition */
+}
+
+.slider-item {
+    display: inline-block; /* Display items side-by-side */
+    color: white;
+    font-size: 1.2em; /* Adjust font size as needed */
+    margin: 0 40px; /* Space between items */
+    padding: 5px 0;
+    white-space: nowrap; /* Ensure text doesn't wrap inside an item */
+    vertical-align: middle; /* Align items nicely */
+}
+
+.leaf-icon {
+    margin-right: 10px;
+    font-size: 1.1em; /* Adjust icon size relative to text */
+    /* If using Font Awesome, you'd use classes like <i class="fas fa-leaf"></i> */
+}
+
+/* Keyframe animation for continuous scrolling */
+@keyframes scrollBanner {
+    0% {
+        transform: translateX(0%); /* Start from the original position */
+    }
+    100% {
+        transform: translateX(-50%); /* Scroll to the left by 50% of its width */
+        /* We duplicate content to avoid a jump when it resets,
+           so scrolling 50% will effectively loop the original content. */
+    }
+}
+
+/* Pause animation on hover (optional) */
+.green-banner-container:hover .green-banner-slider {
+    animation-play-state: paused;
+}
+
+/* Basic responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .slider-item {
+        font-size: 1em;
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-item {
+        font-size: 0.9em;
+        margin: 0 15px;
+    }
+}
+
+
+.s1{
+    box-shadow: rgba(115, 114, 114, 0.15) 1.95px 1.95px 2.6px;
+    /* background-color: rgb(227, 224, 224); */
+    border-radius: 12px;
+    align-content: center;
+    padding: 2rem;
+}
+
+
+.s1:hover{
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: #61A300;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+.class{
+    background-color: #325202;
+}
+
+
+
+.fa-solid
+{ 
+
+    width: 100% !important;
+}
+
+
+#id{
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+
+
+
+
+.class{
+
+
+    align-items: center;
+}
+
+
+.fa-solid{
+  padding: 1.5rem;
+ color: rgb(47, 232, 47);
+ 
+}
+
+
+.s9{
+
+    text-align: center;
+    padding: 1rem;
+
+
+}
+
+
+.s9 h3{
+    color: white;
+    font-weight: bolder;
+}
+
+
+.s9 h5{
+    color: white;
+}
+
+
+
+
+
+.box h4{
+
+    color: black;
+    font-weight: bold;
+}
+
+
+.box h6{
+
+    font-weight: bold;
+}
+
+
+.box:hover{
+    background-color: rgb(5, 82, 5);
+    color: green;
+    cursor: pointer;
+  
+}
+
+
+
+.cls h6{
+    text-align: center;
+    margin-top: 2rem;
+    color: #325202;
+    font-weight: bold;
+   font-size: 2rem;
+   padding-top: 1rem;
+}
+
+
+
+.cls h4{
+    text-align: center;
+    color: #325202;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+
+}
+
+
+.b1{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.sad{
+    align-items: center;
+}
+
+
+
+.b1 h3{
+
+    color: rgb(42, 40, 40) ;
+    padding: 1rem;
+    font-weight: bold;
+
+}
+
+.b1 p{
+    color: gray;
+}
+
+
+.parent{
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ gap: 2rem;
+}
+
+
+#we{
+    margin-top: 2rem;
+    padding: 3rem;
+}
+
+
+.footer{
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* background-color: rgb(52, 42, 42); */
+    background-image: url(b1im.jpg);
+    width: 100%;
+    padding: 2rem;
+}
+
+
+.r1{
+    color:aliceblue;
+    padding: 1rem;
+    
+}
